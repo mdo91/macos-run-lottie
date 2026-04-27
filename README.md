@@ -6,18 +6,16 @@ A lightweight macOS SwiftUI app to preview Lottie animations. Drag & drop `.json
 
 ## Install (No App Store)
 - Download prebuilt binaries (no local export needed):
-  - [Download DMG](https://github.com/mdo91/macos-run-lottie/releases/latest/download/run-lottie-macos.dmg)
-  - [Download ZIP](https://github.com/mdo91/macos-run-lottie/releases/latest/download/run-lottie-macos.zip)
-  - [Latest Release](https://github.com/mdo91/macos-run-lottie/releases/latest)
-  - [All Releases](https://github.com/mdo91/macos-run-lottie/releases)
-  - If direct links return 404, open the latest release page and download from Assets.
+  - [Download DMG](https://raw.githubusercontent.com/mdo91/macos-run-lottie/main/build/export/Run%20Lottie.dmg)
+  - [Download ZIP](https://raw.githubusercontent.com/mdo91/macos-run-lottie/main/build/export/Run%20Lottie.zip)
+  - [View export folder](https://github.com/mdo91/macos-run-lottie/tree/main/build/export)
 - Download either the `.dmg` or `.zip` release artifact.
 - `.dmg` install:
-  - Open `run-lottie-macos.dmg`.
+  - Open `Run Lottie.dmg`.
   - Drag `Run Lottie.app` to `Applications`.
   - Eject the disk image and launch from Applications.
 - `.zip` install:
-  - Unzip `run-lottie-macos.zip`.
+  - Unzip `Run Lottie.zip`.
   - Move `Run Lottie.app` to `Applications`.
   - Launch the app.
 - The distributed app is signed with Developer ID and notarized for Gatekeeper.
@@ -26,13 +24,13 @@ A lightweight macOS SwiftUI app to preview Lottie animations. Drag & drop `.json
 From the project root after archive/export:
 
 ```bash
-ditto -c -k --keepParent "build/export/Run Lottie.app" "build/export/run-lottie-macos.zip"
-hdiutil create -volname "Run Lottie" -srcfolder "build/dmg-staging" -ov -format UDZO "build/export/run-lottie-macos.dmg"
+ditto -c -k --keepParent "build/export/Run Lottie.app" "build/export/Run Lottie.zip"
+hdiutil create -volname "Run Lottie" -srcfolder "build/dmg-staging" -ov -format UDZO "build/export/Run Lottie.dmg"
 ```
 
 Current local outputs:
-- `build/export/run-lottie-macos.zip`
-- `build/export/run-lottie-macos.dmg`
+- `build/export/Run Lottie.zip`
+- `build/export/Run Lottie.dmg`
 
 ## Notarization Notes
 - You do not need to keep the notarization submission ID for normal distribution.
