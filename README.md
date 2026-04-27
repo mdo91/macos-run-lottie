@@ -25,6 +25,10 @@ From the project root after archive/export:
 
 ```bash
 ditto -c -k --keepParent "build/export/Run Lottie.app" "build/export/Run Lottie.zip"
+mkdir -p "build/dmg-staging"
+rm -rf "build/dmg-staging/Run Lottie.app" "build/dmg-staging/Applications"
+cp -R "build/export/Run Lottie.app" "build/dmg-staging/Run Lottie.app"
+ln -s /Applications "build/dmg-staging/Applications"
 hdiutil create -volname "Run Lottie" -srcfolder "build/dmg-staging" -ov -format UDZO "build/export/Run Lottie.dmg"
 ```
 
