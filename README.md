@@ -5,6 +5,9 @@
 A lightweight macOS SwiftUI app to preview Lottie animations. Drag & drop `.json` or `.lottie` files into the app, or import them via the file picker, then play the animation with controls for play/pause, loop, and speed.
 
 ## Install (No App Store)
+- Download prebuilt binaries (no local export needed):
+  - [Download DMG](https://github.com/mdo91/macos-run-lottie/releases/latest/download/Run%20Lottie.dmg)
+  - [Download ZIP](https://github.com/mdo91/macos-run-lottie/releases/latest/download/Run%20Lottie.zip)
 - Download either the `.dmg` or `.zip` release artifact.
 - `.dmg` install:
   - Open `Run Lottie.dmg`.
