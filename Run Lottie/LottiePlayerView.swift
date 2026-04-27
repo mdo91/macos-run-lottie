@@ -5,6 +5,12 @@ import AppKit
 #if canImport(Lottie)
 import Lottie
 
+private final class ConstrainedPlayerContainerView: NSView {
+    override var intrinsicContentSize: NSSize {
+        NSSize(width: NSView.noIntrinsicMetric, height: NSView.noIntrinsicMetric)
+    }
+}
+
 public struct LottiePlayerView: NSViewRepresentable {
     public let fileURL: URL
     public let isPlaying: Bool
@@ -28,12 +34,22 @@ public struct LottiePlayerView: NSViewRepresentable {
     public func makeCoordinator() -> Coordinator { Coordinator() }
 
     public func makeNSView(context: Context) -> NSView {
-        let container = NSView()
+        let container = ConstrainedPlayerContainerView()
         container.wantsLayer = true
+        container.layer?.masksToBounds = true
 
         let animationView = LottieAnimationView()
         animationView.translatesAutoresizingMaskIntoConstraints = false
         animationView.backgroundBehavior = .pauseAndRestore
+        animationView.contentMode = .scaleAspectFit
+        animationView.maskAnimationToBounds = true
+        animationView.wantsLayer = true
+        animationView.layer?.masksToBounds = true
+        animationView.clipsToBounds = true
+        animationView.setContentHuggingPriority(.defaultLow, for: .horizontal)
+        animationView.setContentHuggingPriority(.defaultLow, for: .vertical)
+        animationView.setContentCompressionResistancePriority(.defaultLow, for: .horizontal)
+        animationView.setContentCompressionResistancePriority(.defaultLow, for: .vertical)
 
         container.addSubview(animationView)
         NSLayoutConstraint.activate([

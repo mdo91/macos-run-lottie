@@ -1,3 +1,5 @@
+![demo](demo.png)
+
 # Run Lottie (macOS)
 
 A lightweight macOS SwiftUI app to preview Lottie animations. Drag & drop `.json` or `.lottie` files into the app, or import them via the file picker, then play the animation with controls for play/pause, loop, and speed.

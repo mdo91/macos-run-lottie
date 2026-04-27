@@ -22,7 +22,9 @@ struct AnimationPlayerAreaView: View {
                     LottiePlayerView(fileURL: url, isPlaying: isPlaying, loop: loop, speed: speed) { message in
                         onLoadError(message)
                     }
+                        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
                         .background(Color(nsColor: .windowBackgroundColor))
+                        .clipped()
                         .overlay(alignment: .bottom) { controls }
                 }
             } else {
