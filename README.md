@@ -4,6 +4,36 @@
 
 A lightweight macOS SwiftUI app to preview Lottie animations. Drag & drop `.json` or `.lottie` files into the app, or import them via the file picker, then play the animation with controls for play/pause, loop, and speed.
 
+## Install (No App Store)
+- Download either the `.dmg` or `.zip` release artifact.
+- `.dmg` install:
+  - Open `Run Lottie.dmg`.
+  - Drag `Run Lottie.app` to `Applications`.
+  - Eject the disk image and launch from Applications.
+- `.zip` install:
+  - Unzip `Run Lottie.zip`.
+  - Move `Run Lottie.app` to `Applications`.
+  - Launch the app.
+- The distributed app is signed with Developer ID and notarized for Gatekeeper.
+
+## Build Release Artifacts (Developer)
+From the project root after archive/export:
+
+```bash
+ditto -c -k --keepParent "build/export/Run Lottie.app" "build/export/Run Lottie.zip"
+hdiutil create -volname "Run Lottie" -srcfolder "build/dmg-staging" -ov -format UDZO "build/export/Run Lottie.dmg"
+```
+
+Current local outputs:
+- `build/export/Run Lottie.zip`
+- `build/export/Run Lottie.dmg`
+
+## Notarization Notes
+- You do not need to keep the notarization submission ID for normal distribution.
+- Keep it only for audit/troubleshooting (for example, to fetch notarization logs later).
+- If your Apple Developer membership later expires, already shipped signed/notarized builds usually keep running.
+- New releases/updates will require an active membership to sign with Developer ID and submit notarization again.
+
 ## Features
 - Drag & drop support for `.json` and `.lottie` files
 - Import via file picker

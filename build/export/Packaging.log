@@ -1,0 +1,111 @@
+2026-04-27 12:07:13 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0xbabe29200; archive(resolved)="<IDEArchive: 0xbad5501c0>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDeveloperID: 0xbabe35310>", team(resolved)="<IDEProvisioningBasicTeam: 0xbabfa4960; teamID='QL8R452BWG', teamName='(null)'>">
+	Chain (12, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0xbabe29200; archive = "<IDEArchive: 0xbad5501c0>", distributionMethod="<IDEDistributionMethodDeveloperID: 0xbabe35310>", team="<IDEProvisioningBasicTeam: 0xbabfa4960; teamID='QL8R452BWG', teamName='(null)'>">
+	<IDEDistributionProcessingPipelineContext: 0xbabe28f00; archive = "<IDEArchive: 0xbad5501c0>", distributionMethod="<IDEDistributionMethodDeveloperID: 0xbabe35310>", team="<IDEProvisioningBasicTeam: 0xbabfa4960; teamID='QL8R452BWG', teamName='(null)'>">
+	<IDEDistributionContext: 0xbaece6300; archive = "<IDEArchive: 0xbad5501c0>", distributionMethod="<IDEDistributionMethodDeveloperID: 0xbabe35310>", team="<IDEProvisioningBasicTeam: 0xbabfa4960; teamID='QL8R452BWG', teamName='(null)'>">
+	<IDEDistributionContext: 0xbaece5e00; archive = "<IDEArchive: 0xbad5501c0>", distributionMethod="<IDEDistributionMethodDeveloperID: 0xbabe35310>", team="<IDEProvisioningBasicTeam: 0xbabfa4960; teamID='QL8R452BWG', teamName='(null)'>">
+	<IDEDistributionContext: 0xbaece5b80; archive = "<IDEArchive: 0xbad5501c0>", distributionMethod="<IDEDistributionMethodDeveloperID: 0xbabe35310>", team="<IDEProvisioningBasicTeam: 0xbabfa4960; teamID='QL8R452BWG', teamName='(null)'>">
+	<IDEDistributionContext: 0xbaece5900; archive = "<IDEArchive: 0xbad5501c0>", distributionMethod="<IDEDistributionMethodDeveloperID: 0xbabe35310>", team="<IDEProvisioningBasicTeam: 0xbabfa4960; teamID='QL8R452BWG', teamName='(null)'>">
+	<IDEDistributionContext: 0xbaece4a00; archive = "<IDEArchive: 0xbad5501c0>", distributionMethod="<IDEDistributionMethodDeveloperID: 0xbabe35310>", team="<IDEProvisioningBasicTeam: 0xbabfa4960; teamID='QL8R452BWG', teamName='(null)'>">
+	<IDEDistributionContext: 0xbaece4780; archive = "<IDEArchive: 0xbad5501c0>", distributionMethod="<IDEDistributionMethodDeveloperID: 0xbabe35310>", team="<IDEProvisioningBasicTeam: 0xbabfa4960; teamID='QL8R452BWG', teamName='(null)'>">
+	<IDEDistributionContext: 0xbaece4500; archive = "<IDEArchive: 0xbad5501c0>", distributionMethod="<IDEDistributionMethodDeveloperID: 0xbabe35310>", team="<IDEProvisioningBasicTeam: 0xbabfa4960; teamID='QL8R452BWG', teamName='(null)'>">
+	<IDEDistributionContext: 0xbaece4280; archive = "<IDEArchive: 0xbad5501c0>", distributionMethod="<IDEDistributionMethodDeveloperID: 0xbabe35310>", team="(null)">
+	<IDEDistributionContext: 0xbaece4000; archive = "<IDEArchive: 0xbad5501c0>", distributionMethod="<IDEDistributionMethodDeveloperID: 0xbabe35310>", team="(null)">
+	<IDEDistributionContext: 0x102cfa830; archive = "<IDEArchive: 0xbad5501c0>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0xbabe29200>
+2026-04-27 12:07:13 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2026-04-27 12:07:13 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2026-04-27 12:07:13 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/mdo/Documents/IOS/Run Lottie/build/Run Lottie.xcarchive/Products/Applications/Run Lottie.app' '/var/folders/md/dmdc7_8j441f96m1sftkxnpm0000gn/T/XcodeDistPipeline.~~~6Jyf3T/Root/Applications/Run Lottie.app'
+2026-04-27 12:07:13 +0000  >>> Copying /Users/mdo/Documents/IOS/Run Lottie/build/Run Lottie.xcarchive/Products/Applications/Run Lottie.app 
+2026-04-27 12:07:13 +0000  copying file ./Contents/_CodeSignature/CodeResources ... 
+2026-04-27 12:07:13 +0000  3286 bytes for ./Contents/_CodeSignature/CodeResources
+2026-04-27 12:07:13 +0000  copying file ./Contents/MacOS/Run Lottie ... 
+2026-04-27 12:07:13 +0000  4600784 bytes for ./Contents/MacOS/Run Lottie
+2026-04-27 12:07:13 +0000  copying file ./Contents/Resources/AppIcon.icns ... 
+2026-04-27 12:07:13 +0000  35552 bytes for ./Contents/Resources/AppIcon.icns
+2026-04-27 12:07:13 +0000  copying file ./Contents/Resources/Lottie_Lottie.bundle/Contents/Resources/PrivacyInfo.xcprivacy ... 
+2026-04-27 12:07:13 +0000  599 bytes for ./Contents/Resources/Lottie_Lottie.bundle/Contents/Resources/PrivacyInfo.xcprivacy
+2026-04-27 12:07:13 +0000  copying file ./Contents/Resources/Lottie_Lottie.bundle/Contents/Info.plist ... 
+2026-04-27 12:07:13 +0000  1126 bytes for ./Contents/Resources/Lottie_Lottie.bundle/Contents/Info.plist
+2026-04-27 12:07:13 +0000  copying file ./Contents/Resources/Assets.car ... 
+2026-04-27 12:07:13 +0000  342392 bytes for ./Contents/Resources/Assets.car
+2026-04-27 12:07:13 +0000  copying file ./Contents/Info.plist ... 
+2026-04-27 12:07:13 +0000  1408 bytes for ./Contents/Info.plist
+2026-04-27 12:07:13 +0000  copying file ./Contents/PkgInfo ... 
+2026-04-27 12:07:13 +0000  8 bytes for ./Contents/PkgInfo
+2026-04-27 12:07:13 +0000 [MT] /usr/bin/ditto exited with 0
+2026-04-27 12:07:13 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2026-04-27 12:07:13 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0xbaec55aa0; bundleID='com.distract.mdo.lottie.Run-Lottie', path='<DVTFilePath:0xbad550230:'/Users/mdo/Documents/IOS/Run Lottie/build/Run Lottie.xcarchive/Products/Applications/Run Lottie.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0xbaec55a40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0xbac7c3540; name='Apple Development: Mahmut Aoata (R4Z36324HZ)', hash='2670E48543EF510416843EBDCFE6CB295D2D1D8F', serialNumber='53AD3BA13A8D26598F8BB76D6060006', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-03-01 14:25:36 +0000''>', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+}', teamID='QL8R452BWG', identifier='com.distract.mdo.lottie.Run-Lottie', executablePath='<DVTFilePath:0xbaeca0d90:'/Users/mdo/Documents/IOS/Run Lottie/build/Run Lottie.xcarchive/Products/Applications/Run Lottie.app/Contents/MacOS/Run Lottie'>', hardenedRuntime='1'>'>
+2026-04-27 12:07:13 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2026-04-27 12:07:13 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-04-27 12:07:13 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2026-04-27 12:07:13 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2026-04-27 12:07:13 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2026-04-27 12:07:13 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2026-04-27 12:07:13 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2026-04-27 12:07:13 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2026-04-27 12:07:13 +0000 [MT] Archs to thin for item /Users/mdo/Documents/IOS/Run Lottie/build/Run Lottie.xcarchive/Products/Applications/Run Lottie.app are []
+2026-04-27 12:07:13 +0000 [MT] Processing step: IDEDistributionODRStep
+2026-04-27 12:07:13 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2026-04-27 12:07:13 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2026-04-27 12:07:13 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2026-04-27 12:07:13 +0000 [MT] Entitlements for <IDEDistributionItem: 0xbaec55aa0; bundleID='com.distract.mdo.lottie.Run-Lottie', path='<DVTFilePath:0xbad550230:'/Users/mdo/Documents/IOS/Run Lottie/build/Run Lottie.xcarchive/Products/Applications/Run Lottie.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0xbaec55a40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0xbac7c3540; name='Apple Development: Mahmut Aoata (R4Z36324HZ)', hash='2670E48543EF510416843EBDCFE6CB295D2D1D8F', serialNumber='53AD3BA13A8D26598F8BB76D6060006', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-03-01 14:25:36 +0000''>', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+}', teamID='QL8R452BWG', identifier='com.distract.mdo.lottie.Run-Lottie', executablePath='<DVTFilePath:0xbaeca0d90:'/Users/mdo/Documents/IOS/Run Lottie/build/Run Lottie.xcarchive/Products/Applications/Run Lottie.app/Contents/MacOS/Run Lottie'>', hardenedRuntime='1'>'>: {
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+}
+2026-04-27 12:07:13 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-04-27 12:07:13 +0000 [MT] Entitlements for <IDEDistributionItem: 0xbaec55aa0; bundleID='com.distract.mdo.lottie.Run-Lottie', path='<DVTFilePath:0xbad550230:'/Users/mdo/Documents/IOS/Run Lottie/build/Run Lottie.xcarchive/Products/Applications/Run Lottie.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0xbaec55a40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0xbac7c3000; name='Apple Development: Mahmut Aoata (R4Z36324HZ)', hash='2670E48543EF510416843EBDCFE6CB295D2D1D8F', serialNumber='53AD3BA13A8D26598F8BB76D6060006', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-03-01 14:25:36 +0000''>', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+}', teamID='QL8R452BWG', identifier='com.distract.mdo.lottie.Run-Lottie', executablePath='<DVTFilePath:0xbaeca0d90:'/Users/mdo/Documents/IOS/Run Lottie/build/Run Lottie.xcarchive/Products/Applications/Run Lottie.app/Contents/MacOS/Run Lottie'>', hardenedRuntime='1'>'> are: {
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+}
+2026-04-27 12:07:13 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0xbaec55aa0; bundleID='com.distract.mdo.lottie.Run-Lottie', path='<DVTFilePath:0xbad550230:'/Users/mdo/Documents/IOS/Run Lottie/build/Run Lottie.xcarchive/Products/Applications/Run Lottie.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0xbaec55a40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0xbac7c3000; name='Apple Development: Mahmut Aoata (R4Z36324HZ)', hash='2670E48543EF510416843EBDCFE6CB295D2D1D8F', serialNumber='53AD3BA13A8D26598F8BB76D6060006', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-03-01 14:25:36 +0000''>', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+}', teamID='QL8R452BWG', identifier='com.distract.mdo.lottie.Run-Lottie', executablePath='<DVTFilePath:0xbaeca0d90:'/Users/mdo/Documents/IOS/Run Lottie/build/Run Lottie.xcarchive/Products/Applications/Run Lottie.app/Contents/MacOS/Run Lottie'>', hardenedRuntime='1'>'> to: /var/folders/md/dmdc7_8j441f96m1sftkxnpm0000gn/T/XcodeDistPipeline.~~~6Jyf3T/entitlements~~~BtMpAe
+2026-04-27 12:07:13 +0000 [MT] invoking codesign: <NSConcreteTask: 0xbab954d20; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    AB2E60AB2E1B69A3CCF8AF7BDC87C5D32DFA8FF6,
+    "--entitlements",
+    "/var/folders/md/dmdc7_8j441f96m1sftkxnpm0000gn/T/XcodeDistPipeline.~~~6Jyf3T/entitlements~~~BtMpAe",
+    "--requirements",
+    "=designated => anchor apple generic  and identifier \"$self.identifier\" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = \"QL8R452BWG\" ))",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/md/dmdc7_8j441f96m1sftkxnpm0000gn/T/XcodeDistPipeline.~~~6Jyf3T/Root/Applications/Run Lottie.app"
+)'>
+2026-04-27 12:07:19 +0000 [MT] codesign output: /var/folders/md/dmdc7_8j441f96m1sftkxnpm0000gn/T/XcodeDistPipeline.~~~6Jyf3T/Root/Applications/Run Lottie.app: replacing existing signature
+/var/folders/md/dmdc7_8j441f96m1sftkxnpm0000gn/T/XcodeDistPipeline.~~~6Jyf3T/Root/Applications/Run Lottie.app: signed app bundle with Mach-O universal (x86_64 arm64) [com.distract.mdo.lottie.Run-Lottie]
+2026-04-27 12:07:19 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2026-04-27 12:07:19 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-04-27 12:07:19 +0000 [MT] Processing step: IDEDistributionSkipPackagingStep
+2026-04-27 12:07:19 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2026-04-27 12:07:19 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2026-04-27 12:07:19 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2026-04-27 12:07:19 +0000 [MT] IDEDistributionItem init <DVTFilePath:0xbaef7ddc0:'/var/folders/md/dmdc7_8j441f96m1sftkxnpm0000gn/T/XcodeDistPipeline.~~~6Jyf3T/Root/Applications/Run Lottie.app'>
+2026-04-27 12:07:19 +0000 [MT] [OPTIONAL] Didn't find embedded provisioning profile for <DVTFilePath:0xbaef7ddc0:'/var/folders/md/dmdc7_8j441f96m1sftkxnpm0000gn/T/XcodeDistPipeline.~~~6Jyf3T/Root/Applications/Run Lottie.app'>: Error Domain=NSCocoaErrorDomain Code=4 "No file at <DVTFilePath:0xbad552450:'/var/folders/md/dmdc7_8j441f96m1sftkxnpm0000gn/T/XcodeDistPipeline.~~~6Jyf3T/Root/Applications/Run Lottie.app/Contents/embedded.provisionprofile'>" UserInfo={NSLocalizedDescription=No file at <DVTFilePath:0xbad552450:'/var/folders/md/dmdc7_8j441f96m1sftkxnpm0000gn/T/XcodeDistPipeline.~~~6Jyf3T/Root/Applications/Run Lottie.app/Contents/embedded.provisionprofile'>}
+2026-04-27 12:07:19 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
+2026-04-27 12:07:19 +0000 [MT] Skipping step: IDEDistributionCreateManifestStep because it said so
