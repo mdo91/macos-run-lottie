@@ -108,4 +108,4 @@ If you don’t add the package, the app will compile but show a friendly placeho
 - Swift Testing tests for drop/import logic
 
 ## License
-This project is provided as-is for educational/demo purposes.
+This project is MIT.
